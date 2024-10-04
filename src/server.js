@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 // Clé API à vérifier
-const API_KEY = 'votre_clé_api'; // Remplacez par votre clé API
+const API_KEY = 'abc123xyz'; // Remplacez par votre clé API
 
 // Middleware pour vérifier la clé API
 const apiKeyMiddleware = (req, res, next) => {
